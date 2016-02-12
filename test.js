@@ -1,6 +1,5 @@
 var test = require('tape');
 
-
 test('instanciation', function(t){
 	var A = function(){
 		return {
@@ -15,7 +14,7 @@ test('instanciation', function(t){
 	t.end();
 });
 
-test('same object, passé par assignation', function(t){
+test('copie par référence', function(t){
 	var toto = {
 		x:0
 	};
