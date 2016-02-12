@@ -28,14 +28,10 @@ test('copie par référence', function(t){
 ////
 var rover = require('./lib/index.js');
 
-
 test('true is true', function(t){
 	t.equal(true, true);
 	t.end();
 });
-
-// test('')
-
 
 test('definir la position initiale', function(t){
 	rover.init(3, 4, 'w');
